@@ -1,11 +1,11 @@
 # Signup Automation – Authorized Partner Portal
 
-## 🔗 Target Site
+##  Target Site
 `https://authorized-partner.vercel.app/`
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 | Requirement | Version |
 |---|---|
@@ -15,7 +15,7 @@
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ```bash
 # 1. Clone the repo
@@ -36,7 +36,7 @@ python -m playwright install chromium
 
 ---
 
-## ▶️ Running the Script
+##  Running the Script
 
 ```bash
 python signup_automation_script.py
@@ -52,7 +52,7 @@ The script will:
 
 ---
 
-## 🧪 Test Data Used
+##  Test Data Used
 
 | Field | Value |
 |---|---|
@@ -69,7 +69,7 @@ The script will:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -86,7 +86,7 @@ The script will:
 
 ---
 
-## 🛠️ Framework & Versions
+##  Framework & Versions
 
 | Tool | Version |
 |---|---|
@@ -97,7 +97,7 @@ The script will:
 
 ---
 
-## 🔧 Customising Test Data
+##  Customising Test Data
 
 Open `signup_automation_script.py` and edit the `TEST_DATA` dictionary near the top:
 
@@ -111,7 +111,7 @@ TEST_DATA = {
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - The script runs **headless** by default (no visible browser window).  
   To watch it run, change `headless=True` → `headless=False` in the script.
